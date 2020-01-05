@@ -1,0 +1,22 @@
+/* CSS Document */
+
+.about_title{
+	font-weight:bold;
+	color:black;
+	font-size: 25px;
+}
+
+
+.to{
+	width:300px;
+	height:auto;
+	margin: 150px;
+}
+
+
+
+.to  #dk{
+	text-align:center;
+	width: 900px;
+	height:auto;
+}

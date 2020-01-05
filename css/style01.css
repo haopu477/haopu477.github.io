@@ -1,0 +1,198 @@
+@charset "utf-8"; /* CSS Document */
+.container { 
+	max-width:1280px; 
+	height:auto; 
+	margin: 0 auto; 
+	}
+
+header { 
+	width:100%;
+	height:230px;
+
+	 }
+	.wrapper{
+		width:100%;
+		height:90%;
+		border:1px solid black;
+		border-radius:7%;
+		z-index:10;
+		position:relative;
+			display:flex;
+		}
+		.wrapper .img{
+			width:20%;
+		}
+		.wrapper nav{
+			width:80%;
+			}
+		.wrapper img{
+			margin-top:10px;
+			margin-left:25px;}
+
+nav{ 
+	width: 100%; 
+	height:30px; 
+	margin-top:1%;
+	margin-bottom:5px; }
+
+nav a{ 
+	color:#290DDF; 
+	font-weight:bold; 
+	font-size:22px;
+	text-decoration:none;
+	width:150px; 
+	height: 30px; 
+	text-align:center;
+	float:left; 
+	line-height: 30px; 
+}
+
+nav a:hover{ color: #F36; background-color: #FFC; }
+
+nav  div {
+	float: left; 
+	padding-left: 5px;
+
+	margin-right: 5px;
+	height: 24px;
+	width: 300px;
+	border: 0,5px solid #28C165;
+	border-radius: 5px;
+	
+}
+
+nav div input[type = submit]:hover{cursor: pointer;}
+
+article{ 
+	width: 70%; 
+	min-height: 620px; 
+	background-color: #696; 
+	color: #FFF; 
+	float:left; 
+	margin-bottom:5px;
+	border:1px solid black;
+	border-radius: 10px;
+}
+.chitiet1{ 
+	width: 70%; 
+	min-height: 620px;  
+	float:left; 
+	margin-bottom:5px;
+	border:1px solid black;
+	border-radius: 10px;
+}
+
+aside{ 
+	width:29%; 
+	min-height: 620px; 
+	float:right; 
+	background-color:#066; 
+	color: #FFF;
+	margin-bottom:5px; }
+
+footer{ 
+	width: 100%; 
+	height:230px; 
+	background-color:#366; 
+	color: #FFF; 
+	clear: both;
+	}
+/*=================SAN PHAM=============-*/
+
+
+.sp { 
+	width:270px; 
+	height: 280px; 
+	float:left; 
+	margin-left: 20px; 
+	margin-top: 20px; 
+	background-color:#FFF; }
+
+.sp p{ 
+	color: #00F; 
+	text-align:center; 
+	margin: 0px; 
+	font-size:20px;}
+ 
+.sp p del{color:#666;}
+/*=============END SAN PHAM===========*/
+
+/*==============PHAN BEN PHAI=========*/
+aside h2{
+	color: #FFF;
+	background-color:#060;
+	height:40px;
+	margin:0px;
+	text-align:center;
+	line-height:40px;
+}
+aside table td a{
+	text-align:justify;
+	color: white;
+	text-decoration: none;
+	
+}
+
+aside table td a:hover{text-decoration: underline; color:#CD112E;}
+
+
+footer .footer_left{
+	width:40%;
+	height:200px;
+	float:left;
+}
+
+footer .footer_right{
+	width:20%;
+	height:100px;
+	float:right;
+	margin-top:40px;
+}
+
+ul{ 
+	list-style-type:square;
+	padding-top:20px;
+}
+
+ul li{font-size:18px;}
+
+footer p{
+	text-align:center;
+	font-style:italic;
+	clear:both
+}
+
+/*====================END PHAN BEN PHAI================*/
+
+.content{
+	display:flex;
+	width:100%;
+}
+.img_chitiet{
+	width:40%;
+	border:1px solid black;
+	}
+
+.ndung_chitiet{
+	padding-left:5px;
+	width:60%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
